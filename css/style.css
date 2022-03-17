@@ -3,9 +3,18 @@
 /* цвет акцент #2196F3 */
 /* цвет бекграунд #2F303A */
 
+/* Стили для html */
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #2F303A;
+}
+
+
 body {
     background-color: #fff;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .list {
     list-style: none;
@@ -14,7 +23,7 @@ body {
 /* site-nav */
 
 .colorweb {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .colorstudio {
     color: #000000;
@@ -25,26 +34,29 @@ body {
 
 
 .site-nav a {
-    color: #212121;
+    color: var(--secondary-text-color);
+}
+.site-nav a.current {
+    color: var(--accent-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus,
 .contact-footer a:hover,
 .contact-footer a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .contact a {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .contact a:hover,
 .contact a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* baner */
 .baner {
-    background-color: #2F303A;
+    background-color: var(--background-color);
 }
 .baner-title {
     color: #fff;
@@ -52,13 +64,18 @@ body {
 
 /* section */
 .section-title {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 
 /* footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-color);
 }
 .contact-footer a {
     color: rgba(255, 255, 255, 0.6);
+}
+/* button */
+.button {
+    color: #fff;
+    background-color: var(--accent-color);
 }
