@@ -1,0 +1,56 @@
+/* цвет основного текста #757575 */
+/* цвет вторичный #212121 */
+/* цвет акцент #2196F3 */
+/* цвет бекграунд #2F303A */
+
+body {
+    background-color: #fff;
+    color: #757575;
+}
+ul {
+    list-style: none;
+}
+
+/* site-nav */
+
+.colorweb {
+    color: #2196F3;
+}
+.colorstudio {
+    color: #000000;
+}
+
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #2196F3;
+}
+.contact a {
+    color: #757575;
+}
+.contact a:hover,
+.contact a:focus {
+    color: #2196F3;
+}
+
+/* baner */
+.baner {
+    background-color: #2F303A;
+}
+.baner-title {
+    color: #fff;
+}
+
+/* section */
+.section-title {
+    color: #212121;
+}
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
