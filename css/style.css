@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     color: #757575;
 }
-ul {
+.list {
     list-style: none;
 }
 
@@ -19,6 +19,9 @@ ul {
 .colorstudio {
     color: #000000;
 }
+.colorstudio-second {
+    color: #fff;
+}
 
 
 .site-nav a {
@@ -26,7 +29,9 @@ ul {
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:focus,
+.contact-footer a:hover,
+.contact-footer a:focus {
     color: #2196F3;
 }
 .contact a {
@@ -53,4 +58,7 @@ ul {
 /* footer */
 .footer {
     background-color: #2F303A;
+}
+.contact-footer a {
+    color: rgba(255, 255, 255, 0.6);
 }
