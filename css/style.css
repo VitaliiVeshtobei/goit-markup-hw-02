@@ -79,3 +79,13 @@ body {
     color: #fff;
     background-color: var(--accent-color);
 }
+
+/* Portfolio */
+
+.filter-list a {
+    color: var(--secondary-text-color);
+}
+
+.filter-list p {
+    color: var(--primary-text-color);
+}
