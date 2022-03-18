@@ -131,14 +131,31 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Portfolio */
 
-.filter-list a {
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.filter-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
     color: var(--secondary-text-color);
 }
 
-.filter-list p {
+.filter-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
     color: var(--primary-text-color);
+}
+.filter button:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color:#fff
 }
