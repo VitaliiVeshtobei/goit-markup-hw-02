@@ -25,6 +25,7 @@ body {
     list-style: none;
 }
 
+/* header */
 /* site-nav */
 
 .logo {
@@ -32,6 +33,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .colorweb {
     color: var(--accent-color);
@@ -43,13 +45,14 @@ body {
     color: #fff;
 }
 
-
 .site-nav a {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    text-decoration: none;
+    
 }
 .site-nav a.current {
     color: var(--accent-color);
@@ -60,9 +63,11 @@ body {
 .contact-footer a:hover,
 .contact-footer a:focus {
     color: var(--accent-color);
+    
 }
 .contact a {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 .contact a:hover,
 .contact a:focus {
@@ -72,18 +77,19 @@ body {
 /* baner */
 .baner {
     background-color: var(--background-color);
+    text-align: center;
 }
 .baner-title {
     color: #fff;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 /* section */
+
 .section-title {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -91,6 +97,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.section-team {
+    background-color: #F5F4FA;
 }
 .title-box {
     font-weight: 700;
@@ -104,11 +114,13 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 .comand-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 
 /* footer */
@@ -117,6 +129,7 @@ body {
 }
 .contact-footer a {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .footer-address {
     font-weight: 400;
@@ -132,6 +145,10 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+    
+    
+    
+    
 }
 
 /* Portfolio */
@@ -140,6 +157,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    text-decoration: none;
 }
 .filter-title {
     font-weight: 700;
@@ -158,4 +176,8 @@ body {
     background-color: var(--accent-color);
     cursor: pointer;
     color:#fff
+}
+
+.projects a{
+    text-decoration: none;
 }
