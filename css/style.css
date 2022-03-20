@@ -68,6 +68,10 @@ body {
 .contact a {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 .contact a:hover,
 .contact a:focus {
@@ -136,6 +140,10 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+.footer-address p {
+    color: #FFFFFF;
+    cursor: none;
+}
 /* button */
 .button {
     color: #fff;
@@ -145,11 +153,11 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
-    
-    
-    
-    
-}
+    }
+    .button:hover,
+    .button:focus {
+        background-color: #188CE8;
+    }
 
 /* Portfolio */
 
