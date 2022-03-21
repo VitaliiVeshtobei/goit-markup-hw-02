@@ -106,6 +106,10 @@ body {
 .section-team {
     background-color: #F5F4FA;
 }
+
+.section-team h3 {
+    text-transform:capitalize
+}
 .title-box {
     font-weight: 700;
     font-size: 36px;
@@ -131,6 +135,10 @@ body {
 .footer {
     background-color: var(--background-color);
 }
+.footer a,
+.contact-footer a {
+    cursor: none;
+}
 .contact-footer a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -144,6 +152,7 @@ body {
     color: #FFFFFF;
     cursor: none;
 }
+
 /* button */
 .button {
     color: #fff;
@@ -157,6 +166,9 @@ body {
     .button:hover,
     .button:focus {
         background-color: #188CE8;
+    }
+    .button-bgc {
+        background-color: #F5F4FA;
     }
 
 /* Portfolio */
