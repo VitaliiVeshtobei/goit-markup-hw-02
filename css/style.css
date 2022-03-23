@@ -135,10 +135,7 @@ body {
 .footer {
     background-color: var(--background-color);
 }
-.footer a,
-.contact-footer a {
-    cursor: none;
-}
+
 .contact-footer a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -147,10 +144,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
 }
 .footer-address p {
     color: #FFFFFF;
-    cursor: none;
+    
 }
 
 /* button */
